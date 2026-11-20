@@ -18,7 +18,6 @@ If the tools are missing, find out which assistant the user is in (ask if unclea
 steps for that one only, then stop until they're done. Every assistant needs the same three
 things: a remote MCP server, the URL `https://beta.multiply.co/mcp` (HTTP transport, OAuth
 sign-in, no API key), and a sign-in with the user's Multiply account.
-<!-- PLACEHOLDER: confirm the public URL before publishing. -->
 
 - **Claude (web, desktop, Cowork):** if the multiply plugin is installed the connector is
   included and only needs a sign-in. Otherwise Settings → Connectors → *Add custom
@@ -27,7 +26,6 @@ sign-in, no API key), and a sign-in with the user's Multiply account.
   then `/mcp` to sign in.
 - **ChatGPT:** add Multiply as a custom connector (MCP) in Settings, where the user's plan
   allows custom connectors. On Business or Enterprise plans an admin may have to allow it.
-  <!-- PLACEHOLDER: verify the current ChatGPT menu path and plan requirements. -->
 - **GitHub Copilot (VS Code), Cursor, Windsurf, Codex and other MCP clients:** add an HTTP MCP
   server named `multiply` with the URL above in the client's MCP settings (often an
   `mcp.json` file), then sign in when prompted.

@@ -1,9 +1,9 @@
 # The Agency Pack: AI assistant skills from Multiply
 
-Twelve free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
+Twenty free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
 Claude, ChatGPT, GitHub Copilot, Cursor, Codex or any assistant that reads skills or custom
-instructions. For agencies and the people who run client work: strategists, account leads, new-business
-teams and creative directors. They come from [Multiply](https://multiply.co).
+instructions. For agencies and the people who run client work (strategists, account leads, new-business
+teams and creative directors), and for in-house marketing, brand and creative teams. They come from [Multiply](https://multiply.co).
 
 Generic marketing skills cover copywriting, SEO and ads. This pack covers the work that sits
 around the work: knowing the client, sharpening the brief, winning the pitch, knowing what's
@@ -71,7 +71,6 @@ Install the `.plugin` file for each plugin (`dist/multiply.plugin`, `dist/multip
 `dist/multiply-in-house.plugin`)
 from a Cowork chat. On Team and Enterprise plans an org owner can add the plugins to the
 organisation's catalogue so everyone can install them.
-<!-- PLACEHOLDER: confirm the Cowork org catalogue route and whether a marketplace repo can be added there directly. -->
 
 ### Other assistants (ChatGPT, GitHub Copilot, Cursor, Codex and others)
 The skills are plain Markdown with no Claude-specific features, and Multiply is a standard
@@ -83,7 +82,6 @@ remote MCP server.
   knowledge file.
 - **Multiply:** add `https://beta.multiply.co/mcp` as a remote MCP server (HTTP, OAuth sign-in)
   wherever the assistant supports custom connectors.
-<!-- PLACEHOLDER: verify skills-folder paths and connector menus per assistant before publishing. -->
 
 ### Claude (web)
 Claude.ai takes one skill per zip: Settings → Capabilities → Skills, upload each skill
@@ -97,13 +95,6 @@ manage. Claude then works as you, with access to what you can open in your Multi
 organisations.
 
 **Server URL:** `https://beta.multiply.co/mcp`
-<!-- PLACEHOLDER: derived from the production configuration (base URL + "/mcp") and the in-app
-setup page. It has not been reached live. Confirm the public URL before publishing, including
-whether it moves off "beta". -->
-
-You can also copy the URL from **Multiply → Account → AI assistants**.
-<!-- PLACEHOLDER: that section is currently behind the `mcp` feature flag (the server itself
-serves every account). Make it visible to all users, or remove this line. -->
 
 **Claude (web or desktop):** go to Settings → Connectors → *Add custom connector*, paste the
 server URL, and sign in with your Multiply account. See Anthropic's guide:
@@ -148,4 +139,4 @@ Without Multiply, nothing leaves your conversation except what your assistant's 
 account can already access, and ask before every write.
 
 ---
-*Draft v0.1 · MIT licence <!-- PLACEHOLDER: confirm licence --> · Feedback: <!-- PLACEHOLDER: public feedback channel -->*
+*Draft v0.1 · MIT licence*

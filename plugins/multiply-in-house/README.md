@@ -37,4 +37,4 @@ Each skill includes `reference/multiply-mcp.md` with the Multiply tools it uses.
 read freely and **always ask before writing** or before anything that uses Multiply credits.
 
 ---
-*Draft v0.1 · MIT licence <!-- PLACEHOLDER: confirm licence -->*
+*Draft v0.1 · MIT licence*
