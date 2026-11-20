@@ -1,6 +1,6 @@
 ---
 name: multiply-campaign-adapter
-description: Adapts a master campaign or core message across markets, languages, channels and formats (social, OOH, CRM, retail, web, sales enablement) while keeping the idea, tone and brand rules intact. Flags where local culture, regulation or claims need a change, and produces an adaptation matrix plus ready-to-review copy for each version. Use when an in-house team says "adapt this campaign for <markets>", "localise this", "cut this down for social", "make versions for each channel", "roll this out to the Nordics", or "transcreate". Reads the brand profile; with the Multiply MCP connected, it uses the brand Workspace and market news and saves the adaptation pack to the campaign Project.
+description: Adapts a master campaign or core message across markets, languages, channels and formats (social, OOH, CRM, retail, web, sales enablement) while keeping the idea, tone and brand rules intact. Flags where local culture, regulation or claims need a change, and produces an adaptation matrix plus ready-to-review copy for each version. Use when an in-house team says "adapt this campaign for Germany and France", "localise this", "cut this down for social", "make versions for each channel", "roll this out to the Nordics", or "transcreate". Reads the brand profile; with the Multiply MCP connected, it uses the brand Workspace and market news and saves the adaptation pack to the campaign Project.
 ---
 
 # Campaign adapter

@@ -1,6 +1,6 @@
 ---
 name: multiply-competitor-watch
-description: Keeps a running read on how competitors and the category are communicating: new campaigns, launches, positioning and messaging shifts, sponsorships, pricing and promotions, PR moments and creative that wins awards, with what each means for the brand. Use when an in-house team asks "what are competitors doing", "competitor update", "category watch", "has anyone launched X", "what did <competitor> just do", or wants a weekly or monthly competitive digest. With the Multiply MCP connected, it builds on the brand Workspace's weekly news (filtered to competitors), adds AdForum campaign records, and saves each digest.
+description: Keeps a running read on how competitors and the category are communicating: new campaigns, launches, positioning and messaging shifts, sponsorships, pricing and promotions, PR moments and creative that wins awards, with what each means for the brand. Use when an in-house team asks "what are competitors doing", "competitor update", "category watch", "has anyone launched X", "what did our main competitor just do", or wants a weekly or monthly competitive digest. With the Multiply MCP connected, it builds on the brand Workspace's weekly news (filtered to competitors), adds AdForum campaign records, and saves each digest.
 ---
 
 # Competitor watch
