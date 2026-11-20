@@ -34,14 +34,5 @@
 ## Implications for the brief
 1. So we should {{…}}
 
----
-
-## Has this been done? (Mode B)
-| Idea | Core mechanic | Close matches | Partial matches | Verdict | How to make it distinct |
-|---|---|---|---|---|---|
-| {{…}} | {{…}} | {{brand — title — year — source}} | {{…}} | Clear / Echoes / Done before | {{…}} |
-
-*Absence of evidence isn't proof the idea is new. Searched: {{sources}}.*
-
 ## Sources
 - {{title — link — date}}

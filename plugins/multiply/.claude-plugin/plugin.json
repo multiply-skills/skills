@@ -1,6 +1,6 @@
 {
   "name": "multiply",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Connect Claude to Multiply and set it up around your real clients: connect, set up client Workspaces, import active jobs, save work, search AdForum and keep Workspaces current.",
   "author": {
     "name": "Multiply",

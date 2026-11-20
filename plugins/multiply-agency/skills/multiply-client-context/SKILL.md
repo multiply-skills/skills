@@ -1,6 +1,6 @@
 ---
 name: multiply-client-context
-description: Builds and maintains a living profile of an agency's client covering business, audiences, brand and tone of voice, competitors, past work, stakeholders, and dos and don'ts, from URLs, decks, brand guidelines, meeting notes and web research. Use when the user starts work with a new or existing client, says "set up / onboard / profile X", "what do we know about X", "remember this about X", or pastes client material to keep. Other agency skills (multiply-brief-sharpener, multiply-pitch-prep, multiply-creative-precedents, multiply-client-pulse) read this profile. Saves to a local clients/X.md file, or to the client's Multiply Workspace when the Multiply MCP is connected, where the team shares it.
+description: Builds and maintains a living profile of an agency's client covering business, audiences, brand and tone of voice, competitors, past work, stakeholders, and dos and don'ts, from URLs, decks, brand guidelines, meeting notes and web research. Use when the user starts work with a new or existing client, says "set up / onboard / profile X", "what do we know about X", "remember this about X", or pastes client material to keep. Other agency skills (multiply-brief-sharpener, multiply-pitch-prep, multiply-creative-precedents, multiply-idea-test, multiply-client-pulse) read this profile. Saves to a local clients/X.md file, or to the client's Multiply Workspace when the Multiply MCP is connected, where the team shares it.
 ---
 
 # Client context

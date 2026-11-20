@@ -1,12 +1,13 @@
 ---
 name: multiply-creative-precedents
-description: Maps how a category has advertised, covering its dominant codes and clichés, standout and award-winning campaigns (Cannes Lions, D&AD, One Show, Effies), and white space, and checks whether a creative idea has been done before. Use when the user asks for reference campaigns, precedents, "what has been done in X", category codes or clichés, award winners, an agency's or brand's creative track record, inspiration before ideation, or "has this idea been done?" / "is this original?". Standalone it uses web search with honest caveats. When the Multiply MCP is connected and AdForum is enabled for the organisation, it searches AdForum's campaign and awards archive and saves the map to the client's Project.
+description: Maps how a category has advertised, covering its dominant codes and clichés, standout and award-winning campaigns (Cannes Lions, D&AD, One Show, Effies), and white space, before ideation. Use when the user asks for reference campaigns, precedents, "what has been done in X", category codes or clichés, award winners, an agency's or brand's creative track record, or inspiration before ideation. To test a specific idea or creative direction ("has this been done?", "is this original?"), use multiply-idea-test instead. Standalone it uses web search with honest caveats. When the Multiply MCP is connected and AdForum is enabled for the organisation, it searches AdForum's campaign and awards archive and saves the map to the client's Project.
 ---
 
 # Creative precedents
 
-Know the category's creative history before you add to it, and find out early whether an idea
-already exists.
+Know the category's creative history before you add to it.
+
+To test a specific idea or creative direction against existing work, use **multiply-idea-test**.
 
 ## Non-negotiables
 
@@ -17,7 +18,7 @@ already exists.
 - Be clear about coverage. Web search finds famous and recent work well. It misses older,
   non-English and less publicised work, and its award data is patchy. Say so in the output.
 
-## Mode A: category map
+## Category map
 
 1. **Frame:** category, markets, time window (default: the last 5–10 years), the
    purpose (pre-ideation, pitch, competitor audit) and any client brief. Read the client
@@ -37,19 +38,11 @@ already exists.
    - **Implications:** 3–5 "so we should…" statements for the brief.
 4. **Write** it up with `templates/precedent-map.md`.
 
-## Mode B: has this been done?
+## Testing an idea
 
-For each idea, write its **core mechanic** in plain words, without its execution details.
-Then search the category and any category, because precedents often come from elsewhere. Report:
-
-- **Close matches:** the same mechanic and a similar execution (brand, title, year, source).
-- **Partial matches:** the same mechanic in a different execution or category.
-- **Verdict:** Clear / Echoes / Done before.
-- **How to make it distinct:** what to change so it is clearly yours.
-
-"Similar to X" doesn't automatically kill an idea. Say how famous X is in the audience's
-market and how close the match is. Always add: "Absence of evidence isn't proof the idea is
-new. The search covered <sources>."
+If the user shares a specific idea, route or concept and asks whether it has been done or how it
+compares, hand over to **multiply-idea-test**, passing on the category map if you have just made
+one.
 
 ## Save locally
 
@@ -75,8 +68,7 @@ See `reference/multiply-mcp.md` for every tool's arguments.
      media, and awards with their level. Include each campaign's image." Add `context` (a
      brief summary) and `focus` (for example "Gold and above").
    - Keep each run narrow, limited to one category, market or time window. A single search returns about
-     250 records at most. For a track record, ask for awards grouped by level or year. For
-     Mode B, describe all the ideas' mechanics in one run.
+     250 records at most. For a track record, ask for awards grouped by level or year.
    - `await` an `op1` if one is returned, then `read-source` (`account: "acc1"`) the report handle.
      Merge it with your web findings. Credit AdForum's trend write-ups to AdForum.
    - If `AdForum` isn't listed, say so once and continue with web search.

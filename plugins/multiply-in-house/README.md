@@ -1,6 +1,6 @@
 # Multiply in-house pack
 
-Eight free AI assistant skills (open `SKILL.md` format: Claude, ChatGPT, Copilot, Cursor, Codex)
+Nine free AI assistant skills (open `SKILL.md` format: Claude, ChatGPT, Copilot, Cursor, Codex)
 for in-house marketing, brand and creative teams, from
 [Multiply](https://multiply.co). Their client is the business, so the work is intake, brand
 governance, managing agencies and proving value.
@@ -17,6 +17,7 @@ brand's Multiply **Workspace** and **Projects**, shared with the whole team.
 | [`multiply-agency-brief`](skills/multiply-agency-brief/SKILL.md) | Brief external agencies, then score their responses and write consolidated feedback |
 | [`multiply-stakeholder-pulse`](skills/multiply-stakeholder-pulse/SKILL.md) | Consolidate internal feedback, track approvals and settle conflicting asks |
 | [`multiply-competitor-watch`](skills/multiply-competitor-watch/SKILL.md) | A running digest of competitor and category comms, with a "so what" for the brand |
+| [`multiply-idea-test`](skills/multiply-idea-test/SKILL.md) | Test a creative idea or agency route against recent category work, similar brands and award winners, with a verdict and moves to make it distinct |
 | [`multiply-campaign-adapter`](skills/multiply-campaign-adapter/SKILL.md) | Adapt a master campaign across markets, languages and channels without drifting off-brand |
 | [`multiply-impact-report`](skills/multiply-impact-report/SKILL.md) | Report to leadership on what the team delivered, achieved and saved versus agency spend |
 

@@ -1,7 +1,7 @@
 {
   "name": "multiply-agency",
-  "version": "0.1.0",
-  "description": "Agency skills for client work: client profiles, brief sharpening, pitch prep, creative precedents, client feedback and scope, and award entries. Work on their own; better with the multiply plugin connected.",
+  "version": "0.2.0",
+  "description": "Agency skills for client work: client profiles, brief sharpening, pitch prep, creative precedents, idea testing against campaigns and award winners, client feedback and scope, and award entries. Work on their own; better with the multiply plugin connected.",
   "author": {
     "name": "Multiply",
     "url": "https://multiply.co"

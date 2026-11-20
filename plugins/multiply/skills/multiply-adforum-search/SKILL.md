@@ -1,6 +1,6 @@
 ---
 name: multiply-adforum-search
-description: Searches AdForum's archive of advertising campaigns and award records (Cannes Lions, D&AD, The One Show, Effies and more) through Multiply, and returns verified campaigns with brand, title, year, agency, country, media and awards. Use when the user asks for campaigns or award winners by brand, agency, category, market, year or award show, "what has X done", "who won Gold in Y", "find reference campaigns for Z", an agency's or brand's creative track record, or wants AdForum data specifically. Needs the Multiply MCP. For a full category map or "has this idea been done?", use multiply-creative-precedents, which calls this search as one step.
+description: Searches AdForum's archive of advertising campaigns and award records (Cannes Lions, D&AD, The One Show, Effies and more) through Multiply, and returns verified campaigns with brand, title, year, agency, country, media and awards. Use when the user asks for campaigns or award winners by brand, agency, category, market, year or award show, "what has X done", "who won Gold in Y", "find reference campaigns for Z", an agency's or brand's creative track record, or wants AdForum data specifically. Needs the Multiply MCP. For a full category map, use multiply-creative-precedents; to test an idea or creative direction against existing campaigns and award winners, use multiply-idea-test. Both call this search as one step.
 ---
 
 # AdForum search
@@ -53,7 +53,7 @@ Then `read-source` (`account: "acc1"`) on the report handle.
   return, list it separately as "not in this AdForum result, verify".
 - Say where the full report is saved in Multiply.
 
-Offer one follow-up: a narrower run, a related category, or multiply-creative-precedents for the full
-category map.
+Offer one follow-up: a narrower run, a related category, multiply-creative-precedents for the full
+category map, or multiply-idea-test to check an idea against the results.
 
 See `reference/multiply-mcp.md` for every tool's arguments.

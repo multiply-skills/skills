@@ -1,6 +1,6 @@
 # The Agency Pack: AI assistant skills from Multiply
 
-Twenty free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
+Twenty-one free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
 Claude, ChatGPT, GitHub Copilot, Cursor, Codex or any assistant that reads skills or custom
 instructions. For agencies and the people who run client work (strategists, account leads, new-business
 teams and creative directors), and for in-house marketing, brand and creative teams. They come from [Multiply](https://multiply.co).
@@ -25,7 +25,8 @@ enabled also get AdForum's archive of campaigns and award records.
 | [`multiply-client-context`](plugins/multiply-agency/skills/multiply-client-context/SKILL.md) | Build and maintain a living client profile: business, audiences, brand, competitors, history, stakeholders | Web research + `clients/<client>.md` | Finds or creates the client's Workspace and saves the profile there. Reads back client news, files and project intelligence |
 | [`multiply-brief-sharpener`](plugins/multiply-agency/skills/multiply-brief-sharpener/SKILL.md) | Critique a client brief, rewrite it with a single-minded proposition, and draft questions for the client | Rubric, rewrite and questions | Grounds the brief in the client's Workspace and sets the job up as a Project. Multiply generates the Brief and intelligence and suggests next tasks |
 | [`multiply-pitch-prep`](plugins/multiply-agency/skills/multiply-pitch-prep/SKILL.md) | Prepare a prospect dossier with opening provocations and matching credentials | Web research + your case studies | Runs Multiply's deep research, matches credentials from your agency's own files, adds AdForum campaigns from the category, and keeps watching the prospect |
-| [`multiply-creative-precedents`](plugins/multiply-agency/skills/multiply-creative-precedents/SKILL.md) | Map a category's creative codes and award winners, and check whether an idea has been done | Web search with honest coverage caveats | Searches AdForum's campaign and awards archive (where enabled) and saves the map to the Project |
+| [`multiply-creative-precedents`](plugins/multiply-agency/skills/multiply-creative-precedents/SKILL.md) | Map a category's creative codes, standout work, award winners and white space before ideation | Web search with honest coverage caveats | Searches AdForum's campaign and awards archive (where enabled) and saves the map to the Project |
+| [`multiply-idea-test`](plugins/multiply-agency/skills/multiply-idea-test/SKILL.md) | Test an idea or creative direction against recent category campaigns, similar brands and award winners: matches, category codes, award benchmark, risks and a Go / Strengthen / Rethink verdict | Web search with honest coverage caveats | Checks it against AdForum's campaign and awards archive (where enabled) and saves the test to the Project |
 | [`multiply-client-pulse`](plugins/multiply-agency/skills/multiply-client-pulse/SKILL.md) | Consolidate client feedback, flag scope creep against the brief or SOW, and read relationship health | Pasted threads/notes + a running feedback log | Reads the Project's Brief, plus meeting transcripts and files in Multiply. Searches a connected Gmail or Outlook inbox and keeps the log shared |
 | [`multiply-award-entry-writer`](plugins/multiply-agency/skills/multiply-award-entry-writer/SKILL.md) | Draft Cannes Lions, D&AD, One Show, Effie or Epica entries to each show's criteria and limits, and flag missing evidence | Your case material | Pulls the brief and results from the Project and benchmarks against past winners in AdForum |
 
@@ -51,10 +52,10 @@ multiply-tune-workspace once a month.
 The repo is a plugin marketplace with three plugins:
 
 - **multiply**: the 6 Multiply skills plus the Multiply connector (needs a Multiply account).
-- **multiply-agency**: the 6 agency skills. They work without Multiply and use it when the
+- **multiply-agency**: the 7 agency skills. They work without Multiply and use it when the
   multiply plugin is installed.
 
-- **multiply-in-house**: 8 skills for in-house marketing, brand and creative teams (see
+- **multiply-in-house**: 9 skills for in-house marketing, brand and creative teams (see
   [its README](plugins/multiply-in-house/README.md)).
 
 ### Claude Code
@@ -129,7 +130,7 @@ It is being enabled for all Multiply organisations.
 |---|---|
 | `clients/<client>.md` | The client's **Workspace** (profile saved as a dated document, plus the Workspace description) |
 | A job, campaign or pitch | A **Project** with Instructions, a Brief, intelligence areas and suggested next tasks |
-| Briefs, dossiers, precedent maps, pulse reports, award entries | Dated documents saved to the Workspace or Project, searchable by your whole team |
+| Briefs, dossiers, precedent maps, idea tests, pulse reports, award entries | Dated documents saved to the Workspace or Project, searchable by your whole team |
 
 Each skill folder includes `reference/multiply-mcp.md`, which lists the Multiply tools it uses.
 
