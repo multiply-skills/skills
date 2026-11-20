@@ -23,7 +23,7 @@ brand's Multiply **Workspace** and **Projects**, shared with the whole team.
 
 **Also useful for in-house teams:** `multiply-creative-precedents` and
 `multiply-award-entry-writer` from the multiply-agency plugin, and the whole **multiply**
-plugin (connect, setup, import work, save, AdForum search, workspace tune-up). In Multiply,
+plugin (connect, setup, import to Multiply, AdForum search). In Multiply,
 set up one Workspace per brand, business unit or market rather than per client.
 
 ## How the pack maps to Multiply

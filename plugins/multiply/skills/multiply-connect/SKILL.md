@@ -1,6 +1,6 @@
 ---
 name: multiply-connect
-description: Connects an AI assistant (Claude, ChatGPT, Copilot, Cursor or any MCP-capable client) to Multiply, the AI platform for agencies, through its MCP server, then checks the connection, picks the organisation, maps the user's clients to Multiply Workspaces and reports what is available (AdForum, connected inboxes, client news). Use when the user says "connect Multiply", "set up the Multiply connector", "is Multiply connected", "which Multiply org am I in", "link my clients to Multiply", or when another skill needs Multiply and its tools are missing. Run it before multiply-setup, multiply-import-work or multiply-tune-workspace if the connection hasn't been checked in this conversation.
+description: Connects an AI assistant (Claude, ChatGPT, Copilot, Cursor or any MCP-capable client) to Multiply, the AI platform for agencies, through its MCP server, then checks the connection, picks the organisation, maps the user's clients to Multiply Workspaces and reports what is available (AdForum, connected inboxes, client news). Use when the user says "connect Multiply", "set up the Multiply connector", "is Multiply connected", "which Multiply org am I in", "link my clients to Multiply", or when another skill needs Multiply and its tools are missing. Run it before multiply-setup or multiply-import if the connection hasn't been checked in this conversation.
 ---
 
 # Connect Multiply
@@ -85,8 +85,7 @@ Keep it short:
 - Connected as <account> in <organisation>.
 - <n> Workspaces, <n> projects you're in, <n> joinable.
 - AdForum: yes or no. Inbox: which one, or none.
-- Next step, one line: multiply-setup if the org has few or no Workspaces, multiply-import-work if
-  Workspaces exist but active jobs aren't in Multiply, multiply-tune-workspace if it's been in use
-  for a while.
+- Next step, one line: multiply-setup if the org has few or no Workspaces, multiply-import if
+  Workspaces exist and the user has work, files or briefs to bring in.
 
 See `reference/multiply-mcp.md` for every tool's arguments.

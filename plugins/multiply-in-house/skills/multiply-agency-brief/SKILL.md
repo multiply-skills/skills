@@ -55,7 +55,7 @@ See `reference/multiply-mcp.md`.
   guidelines, claims and earlier agency briefs.
 - **Set up (ask first):** a Project per agency job with `create-project`
   (`parent: "ws1"`, the brief as `instructions`), so brief, responses and scores sit together.
-- **Responses:** upload the agency's decks with multiply-save (`prepare-upload`, `add-files`
+- **Responses:** upload the agency's decks with multiply-import (`prepare-upload`, `add-files`
   to the project). Then `search-sources` on the project to quote them in the scoring.
 - **Save (ask first):** `write-source` with
   `title: "Agency brief · <job> · <YYYY-MM-DD>"` and later

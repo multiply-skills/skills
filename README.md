@@ -1,6 +1,6 @@
 # The Agency Pack: AI assistant skills from Multiply
 
-Twenty-one free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
+Nineteen free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
 Claude, ChatGPT, GitHub Copilot, Cursor, Codex or any assistant that reads skills or custom
 instructions. For agencies and the people who run client work (strategists, account leads, new-business
 teams and creative directors), and for in-house marketing, brand and creative teams. They come from [Multiply](https://multiply.co).
@@ -32,26 +32,24 @@ enabled also get AdForum's archive of campaigns and award records.
 
 ## Multiply skills (need Multiply connected)
 
-Six more skills for teams that use Multiply. They set it up around your real clients and
-keep it useful.
+Four more skills for teams that use Multiply. They set it up around your real clients and
+get your work into it.
 
 | Skill | Use it to |
 |---|---|
 | [`multiply-connect`](plugins/multiply/skills/multiply-connect/SKILL.md) | Connect the MCP, pick the organisation, map your clients to Workspaces and see what's available (AdForum, inbox) |
 | [`multiply-setup`](plugins/multiply/skills/multiply-setup/SKILL.md) | Create Workspaces for your 3–5 most important clients, with descriptions, key files and a first client news run |
-| [`multiply-import-work`](plugins/multiply/skills/multiply-import-work/SKILL.md) | Bring active jobs from briefs, Asana, Monday, Linear, Notion or email into Multiply as Projects with the right intelligence areas |
-| [`multiply-save`](plugins/multiply/skills/multiply-save/SKILL.md) | Save a chat output or upload files to the right Workspace, Project or task |
+| [`multiply-import`](plugins/multiply/skills/multiply-import/SKILL.md) | Move what you're working on into Multiply: chat outputs, files, links or a job from Asana, Monday or Notion, added to the right Workspace or Project (created if needed) |
 | [`multiply-adforum-search`](plugins/multiply/skills/multiply-adforum-search/SKILL.md) | Search AdForum's campaign and awards archive by brand, agency, category, market, year or show |
-| [`multiply-tune-workspace`](plugins/multiply/skills/multiply-tune-workspace/SKILL.md) | Monthly health check: stale files, unopened news, waiting proposals, inactive projects, then fix what you approve |
 
-Suggested order for a new user: multiply-connect, multiply-setup, multiply-import-work. Then
-multiply-tune-workspace once a month.
+Suggested order for a new user: multiply-connect, multiply-setup, then multiply-import whenever
+there is work to bring in.
 
 ## Install
 
 The repo is a plugin marketplace with three plugins:
 
-- **multiply**: the 6 Multiply skills plus the Multiply connector (needs a Multiply account).
+- **multiply**: the 4 Multiply skills plus the Multiply connector (needs a Multiply account).
 - **multiply-agency**: the 7 agency skills. They work without Multiply and use it when the
   multiply plugin is installed.
 

@@ -69,7 +69,7 @@ See `reference/multiply-mcp.md`.
 4. Save (ask first): `write-source` with `to: "ws1"` and
    `title: "Brand profile · <Brand> · <YYYY-MM-DD>"`. Sources are append-only, so each update
    is a new dated document whose first line reads "Supersedes …". Upload the real brand
-   guidelines file with multiply-save so the original is always there.
+   guidelines file with multiply-import so the original is always there.
 5. If the summary changed, `update-workspace` with the new description.
 
 ## If the Multiply MCP is not connected

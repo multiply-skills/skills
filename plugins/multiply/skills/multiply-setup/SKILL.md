@@ -53,7 +53,7 @@ Explain: creating Workspaces is free; client news and file processing use Multip
 and take a few minutes. Then, per client:
 
 1. `create-workspace` with `org`, `title`, `description`.
-2. If there are files: upload them as multiply-save describes (`prepare-upload`, PUT,
+2. If there are files: upload them as multiply-import describes (`prepare-upload`, PUT,
    `add-files` with `to: "ws1"`). Adding files to a Workspace already re-runs its client
    news and brief proposals, so skip step 3 for that client.
 3. Otherwise: `run-workspace` with `run: "client-news"`. Nothing runs on a new Workspace
@@ -72,7 +72,7 @@ For each client, from `read-news` and `list-proposals`:
 - any project proposal worth a look
 
 Then suggest one concrete next step per client, for example: start a proposal as a project,
-bring an active job in with multiply-import-work, or save the client profile with multiply-save.
+or bring an active job, brief or the client profile in with multiply-import.
 
 ## 6. Leave a record
 
