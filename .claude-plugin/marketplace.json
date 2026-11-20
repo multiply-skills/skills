@@ -1,0 +1,31 @@
+{
+  "name": "multiply-skills",
+  "owner": {
+    "name": "Multiply",
+    "url": "https://multiply.co"
+  },
+  "metadata": {
+    "description": "Free Claude skills for agencies and in-house teams, from Multiply.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "multiply",
+      "source": "./plugins/multiply",
+      "description": "Connect Claude to Multiply and set it up around your real clients (needs a Multiply account).",
+      "category": "productivity"
+    },
+    {
+      "name": "multiply-agency",
+      "source": "./plugins/multiply-agency",
+      "description": "Agency skills for client work. Work on their own; better with the multiply plugin.",
+      "category": "productivity"
+    },
+    {
+      "name": "multiply-in-house",
+      "source": "./plugins/multiply-in-house",
+      "description": "Skills for in-house marketing, brand and creative teams. Work on their own; better with the multiply plugin.",
+      "category": "productivity"
+    }
+  ]
+}
