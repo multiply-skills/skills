@@ -51,8 +51,8 @@ assumed, what is missing, and what to confirm with the client.
 ## If the Multiply MCP is connected
 
 When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
-*Presenting results from Multiply*: every source as an embedded link, and the data visualised
-where it fits.
+*Presenting results from Multiply*: a direct link to anything you started, created or changed in
+Multiply, every source as an embedded link, and the data visualised where it fits.
 
 Multiply turns the profile from your own file into the team's shared client memory. Its
 weekly client-news run and the project intelligence keep it current. See

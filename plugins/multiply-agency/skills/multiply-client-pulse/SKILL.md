@@ -58,8 +58,8 @@ for the user to save.
 ## If the Multiply MCP is connected
 
 When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
-*Presenting results from Multiply*: every source as an embedded link, and the data visualised
-where it fits.
+*Presenting results from Multiply*: a direct link to anything you started, created or changed in
+Multiply, every source as an embedded link, and the data visualised where it fits.
 
 Multiply stores the brief, files and meeting transcripts for each client, so the pulse can be
 built from what is already there rather than only from what is pasted. See

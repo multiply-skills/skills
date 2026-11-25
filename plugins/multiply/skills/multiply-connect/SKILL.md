@@ -44,6 +44,11 @@ anything that writes or spends Multiply credits is always confirmed first.
    account handle in each (`acc1` …).
 2. One organisation: use it. Several: ask which one, by name.
 3. If the call fails with an auth error, ask the user to reconnect the connector.
+4. **Get the organisation's link.** The MCP doesn't return links to Multiply yet, so ask once:
+   "Open Multiply in your browser and paste any link from this organisation." Take the
+   organisation ID from it: the part after `/o/` in `https://beta.multiply.co/o/<ID>/...`.
+   The organisation link is then `https://beta.multiply.co/o/<ID>`. If the user can't paste
+   one, carry on without it and use https://beta.multiply.co instead. Never guess an ID.
 
 ## 3. Take stock (reads, no need to ask)
 
@@ -67,6 +72,7 @@ Write the map to `clients/_multiply.md` (create `clients/` if needed):
 ```
 # Multiply connection
 Organisation: <org name>
+Organisation link: https://beta.multiply.co/o/<ID>
 Checked: <YYYY-MM-DD>
 AdForum: available | not available
 Connected inbox: Gmail | Outlook | none
@@ -75,7 +81,9 @@ Connected inbox: Gmail | Outlook | none
 |---|---|---|
 ```
 
-Store **titles, never handles**: handles only work inside the session that issued them.
+Store **titles and the organisation link, never handles**: handles only work inside the
+session that issued them. If the user works in several Multiply organisations, keep one
+block per organisation.
 If you can't write files, show the map as Markdown instead.
 
 ## 5. Hand back
@@ -91,7 +99,7 @@ Keep it short:
 ## Presenting results
 
 When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
-*Presenting results from Multiply*: every source as an embedded link, and the data visualised
-where it fits.
+*Presenting results from Multiply*: a direct link to anything you started, created or changed in
+Multiply, every source as an embedded link, and the data visualised where it fits.
 
 See `reference/multiply-mcp.md` for every tool's arguments.

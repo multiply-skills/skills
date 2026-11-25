@@ -65,7 +65,9 @@ Follow `reference/multiply-mcp.md` → *Presenting results from Multiply*. In th
    comparison table or timeline instead.
 4. **So what:** 2–3 implications for the user's client or decision.
 5. **Gaps:** what the research couldn't find or where sources disagree.
-6. **Sources** list, and where the full report is saved in Multiply.
+6. **Sources** list.
+7. **Open in Multiply** as the last line: the exact link if the tool returns one, otherwise
+   the organisation link plus the path to the report.
 
 If the user asked a quick question or a specific format, give that and offer the visual in
 one line instead.

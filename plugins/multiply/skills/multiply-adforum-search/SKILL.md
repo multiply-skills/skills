@@ -59,7 +59,7 @@ category map, or multiply-idea-test to check an idea against the results.
 ## Presenting results
 
 When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
-*Presenting results from Multiply*: every source as an embedded link, and the data visualised
-where it fits.
+*Presenting results from Multiply*: a direct link to anything you started, created or changed in
+Multiply, every source as an embedded link, and the data visualised where it fits.
 
 See `reference/multiply-mcp.md` for every tool's arguments.

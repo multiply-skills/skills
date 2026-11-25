@@ -99,6 +99,22 @@ intelligence (`read-intelligence`) or sources (`read-source`).
 - End with a short **Sources** list.
 - Say where the full report is saved in Multiply (Workspace › Project), so the user can open it.
 
+**Link to it in Multiply: end every message with it**
+- Whenever you start a task or run (research, an endpoint run, a workflow, a Workspace run),
+  or create, read or change a Workspace, Project, task or document, end your message with a
+  single **Open in Multiply** line and nothing else about it: no explanation of how the link
+  was made or why it isn't more exact.
+- **Exact link first.** If the tool result includes a link to the item (a `url` or `link`
+  field), use it: `Open in Multiply: <that url>`.
+- **Otherwise, the organisation link plus the path:**
+  `Open in Multiply: https://beta.multiply.co/o/<ID> › <Organisation> › <Workspace or Your private tasks> › <item title>`
+  Take the organisation ID from `clients/_multiply.md` (written by multiply-connect) or from
+  any Multiply link the user has shared (the part after `/o/`).
+- **No ID:** use `Open in Multiply: https://beta.multiply.co › <Organisation> › <Workspace or Your private tasks> › <item title>`.
+  Don't ask for a link just for this.
+- Never build or guess a link from a handle (`ws1`, `t3` and so on only exist in this
+  session), and never guess an ID or a task number.
+
 **Visualise the data, by default**
 - When results contain numbers, comparisons, trends, rankings, timelines or categories, show
   them visually as well as in words. Pick the form that fits the data:

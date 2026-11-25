@@ -53,8 +53,8 @@ Offer to run multiply-brand-guardian on any version.
 ## If the Multiply MCP is connected
 
 When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
-*Presenting results from Multiply*: every source as an embedded link, and the data visualised
-where it fits.
+*Presenting results from Multiply*: a direct link to anything you started, created or changed in
+Multiply, every source as an embedded link, and the data visualised where it fits.
 
 See `reference/multiply-mcp.md`.
 
