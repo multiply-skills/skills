@@ -73,6 +73,10 @@ show and category as its own file. If you can't write files, output Markdown.
 
 ## If the Multiply MCP is connected
 
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 See `reference/multiply-mcp.md` for every tool's arguments.
 
 1. `create-session`, then find the client's Workspace and the campaign's Project

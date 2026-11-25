@@ -1,6 +1,6 @@
 # The Agency Pack: AI assistant skills from Multiply
 
-Nineteen free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
+Twenty free skills in the open [Agent Skills](https://agentskills.io) format (`SKILL.md`), for
 Claude, ChatGPT, GitHub Copilot, Cursor, Codex or any assistant that reads skills or custom
 instructions. For agencies and the people who run client work (strategists, account leads, new-business
 teams and creative directors), and for in-house marketing, brand and creative teams. They come from [Multiply](https://multiply.co).
@@ -32,7 +32,7 @@ enabled also get AdForum's archive of campaigns and award records.
 
 ## Multiply skills (need Multiply connected)
 
-Four more skills for teams that use Multiply. They set it up around your real clients and
+Five more skills for teams that use Multiply. They set it up around your real clients and
 get your work into it.
 
 | Skill | Use it to |
@@ -41,6 +41,7 @@ get your work into it.
 | [`multiply-setup`](plugins/multiply/skills/multiply-setup/SKILL.md) | Create Workspaces for your 3–5 most important clients, with descriptions, key files and a first client news run |
 | [`multiply-import`](plugins/multiply/skills/multiply-import/SKILL.md) | Move what you're working on into Multiply: chat outputs, files, links or a job from Asana, Monday or Notion, added to the right Workspace or Project (created if needed) |
 | [`multiply-adforum-search`](plugins/multiply/skills/multiply-adforum-search/SKILL.md) | Search AdForum's campaign and awards archive by brand, agency, category, market, year or show |
+| [`multiply-research`](plugins/multiply/skills/multiply-research/SKILL.md) | Run Multiply research on any topic and get it back with every source linked and the data shown as charts, tables or timelines |
 
 Suggested order for a new user: multiply-connect, multiply-setup, then multiply-import whenever
 there is work to bring in.

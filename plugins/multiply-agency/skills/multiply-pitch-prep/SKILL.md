@@ -57,6 +57,10 @@ format, if available).
 
 ## If the Multiply MCP is connected
 
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 Multiply adds deep cited research, the agency's own credentials, and AdForum campaign data,
 and keeps watching the prospect after the meeting. See `reference/multiply-mcp.md`.
 

@@ -88,4 +88,10 @@ Keep it short:
 - Next step, one line: multiply-setup if the org has few or no Workspaces, multiply-import if
   Workspaces exist and the user has work, files or briefs to bring in.
 
+## Presenting results
+
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 See `reference/multiply-mcp.md` for every tool's arguments.

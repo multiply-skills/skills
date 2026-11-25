@@ -79,4 +79,10 @@ or bring an active job, brief or the client profile in with multiply-import.
 Update `clients/_multiply.md` (see multiply-connect) with the new Workspace titles. Tell the
 user: client news and proposals now refresh weekly by themselves.
 
+## Presenting results
+
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 See `reference/multiply-mcp.md` for every tool's arguments.

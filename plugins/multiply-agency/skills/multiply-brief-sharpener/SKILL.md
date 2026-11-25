@@ -60,6 +60,10 @@ for the user to save.
 
 ## If the Multiply MCP is connected
 
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 The job becomes a Multiply **Project**. Multiply builds a Brief, intelligence areas and
 suggested next tasks from it, and the whole team works from the same version. See
 `reference/multiply-mcp.md` for every tool's arguments.

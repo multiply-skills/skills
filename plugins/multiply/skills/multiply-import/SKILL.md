@@ -89,4 +89,10 @@ couldn't be read and why. If a new Project was created, add one optional next st
 Multiply to write the Brief for it? That takes 10–15 minutes and uses credits." Only run
 `generate-brief` if the user says yes.
 
+## Presenting results
+
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 See `reference/multiply-mcp.md` for every tool's arguments.

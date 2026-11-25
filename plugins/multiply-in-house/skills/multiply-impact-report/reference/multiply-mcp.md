@@ -85,3 +85,39 @@ proposals**.
 - **Email** is not stored as sources. If the user has connected Gmail or Outlook in Multiply,
   `list-endpoints` with `principals: ["acc1"]` shows it, and `run-endpoint` searches it live
   and saves a report.
+
+## Presenting results from Multiply
+
+Apply this whenever an answer draws on Multiply output: a research report (`run-research`),
+an endpoint run (`run-endpoint`, including AdForum), client news (`read-news`), project
+intelligence (`read-intelligence`) or sources (`read-source`).
+
+**Sources, always**
+- Link every claim, figure and campaign to its source as an embedded Markdown link,
+  `[title](url)`, using the URLs in Multiply's report or source. Never invent or guess a URL.
+  If Multiply gives none, name the source instead.
+- End with a short **Sources** list.
+- Say where the full report is saved in Multiply (Workspace › Project), so the user can open it.
+
+**Visualise the data, by default**
+- When results contain numbers, comparisons, trends, rankings, timelines or categories, show
+  them visually as well as in words. Pick the form that fits the data:
+  - change over time: line chart
+  - comparison across brands, markets or campaigns: bar chart
+  - share of a whole: bar or stacked bar (avoid pies with many slices)
+  - two measures against each other: scatter
+  - history or sequence of events: timeline
+  - a set of campaigns, competitors or options: comparison table or card grid
+  - positioning, structure or process: 2x2 map or diagram
+- Use the best visual the assistant supports: a native chart tool or artifact, an HTML or SVG
+  page, a Mermaid diagram, a chart rendered with code, or at minimum a clean Markdown table.
+- Plot only figures that appear in the Multiply results. Put the source and date under each
+  visual. Never estimate missing values to complete a chart.
+- Keep it to 1–3 visuals per answer, each with a one-line takeaway.
+
+**When not to force it**
+- The user asked a simple question, wants a quick answer, or named a format (an email, a doc,
+  plain text): follow that, and offer a visual in one line if the data supports one.
+- The answer doesn't use Multiply research: visuals are optional, use them only when they
+  clearly help.
+- The data is qualitative only: use a table or structured list rather than a chart.

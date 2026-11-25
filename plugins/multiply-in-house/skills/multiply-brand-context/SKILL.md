@@ -57,6 +57,10 @@ should approve what.
 
 ## If the Multiply MCP is connected
 
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 See `reference/multiply-mcp.md`.
 
 1. `create-session`, then `list-workspaces` with `title-contains: "<brand>"`.

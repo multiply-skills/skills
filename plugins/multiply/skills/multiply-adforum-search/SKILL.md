@@ -56,4 +56,10 @@ Then `read-source` (`account: "acc1"`) on the report handle.
 Offer one follow-up: a narrower run, a related category, multiply-creative-precedents for the full
 category map, or multiply-idea-test to check an idea against the results.
 
+## Presenting results
+
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 See `reference/multiply-mcp.md` for every tool's arguments.

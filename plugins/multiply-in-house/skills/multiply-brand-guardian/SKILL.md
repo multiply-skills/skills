@@ -47,6 +47,10 @@ think one is missing, suggest adding it to the profile.
 
 ## If the Multiply MCP is connected
 
+When results come from Multiply, present them as `reference/multiply-mcp.md` describes under
+*Presenting results from Multiply*: every source as an embedded link, and the data visualised
+where it fits.
+
 See `reference/multiply-mcp.md`.
 
 - **Read (no need to ask):** `create-session`, find the brand Workspace, `search-sources` with
